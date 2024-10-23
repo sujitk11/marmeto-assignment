@@ -1,22 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
     <title>Coding Assesment L2 boilerplate</title>
+  </head>
 
-</head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo" />
+          <h1 class="site-name">Marmeto</h1>
+        </div>
 
-<body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/shop">Shop</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="navbar-icons">
+          <img src="./assets/search.png" alt="Search-logo" />
+          <img src="./assets/wishlist.png" alt="Wishlist-logo" />
+          <img src="./assets//shopping-cart.png" alt="Cart-logo" />
+        </div>
+      </div>
+    </header>
+
+    <!-- cart section -->
+    <div class="cart-section">
+      <div class="img-container"></div>
+      <div class="bg-overlay"></div>
+      <div class="cart-header">
+        <img src="./assets/logo.png" />
+        <h1>Cart</h1>
+        <p><b>Home ></b> Cart</p>
+      </div>
+
+      <div class="cart-container">
+        <!-- product table will inserted here through js -->
+        <div class="table-data"></div>
+        <div class="cart-totals">
+          <h2>Cart Totals</h2>
+          <p>Subtotal: <span class="light-text">Rs. 250,000.00</span></p>
+          <p>
+            Total: <span class="total-price light-text">Rs. 250,000.00</span>
+          </p>
+          <button class="checkout-btn">Check Out</button>
+        </div>
+      </div>
     </div>
-    <!-- Happy coding 😊 -->
-    <script src="./script.js"></script>
-</body>
 
+    <!-- footer section -->
+    <div class="footer-features">
+      <div class="feature">
+        <img src="./assets/group.png" alt="High Quality" />
+        <div>
+          <p>High Quality</p>
+          <small>Crafted from top materials</small>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="./assets/guarantee.png" alt="Free Shipping" />
+        <div>
+          <p>Warranty Protection</p>
+          <small>Over 2 years</small>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="./assets/shipping.png" alt="Free Shipping" />
+        <div>
+          <p>Free Shipping</p>
+          <small>Order over 150$</small>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="./assets/customer-support.png" alt="24/7 Support" />
+        <div>
+          <p>24/7 Support</p>
+          <small>Dedicated support</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- js code is in script.js file -->
+    <script src="./script.js"></script>
+  </body>
 </html>

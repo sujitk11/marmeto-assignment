@@ -9,7 +9,7 @@
 - Go to the project directory via the terminal.
 
   ```bash
-  cd Coding-assessment-l2-Boilerplate
+  cd marmeto-assignment
   ```
 
 - Open `index.html` in your browser to view the final state of the project.
